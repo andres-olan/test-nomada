@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ant-upload.ant-upload-select.ant-upload-select-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: #fafafa;
+    border: 1px dashed #d9d9d9;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition: border-color .3s;
+    transition: border-color .3s;
+    padding: 20px;
+}
+.ant-upload .ant-upload-drag-icon {
+    margin-bottom: 20px;
+}
+.ant-upload .ant-upload-drag-icon .anticon  {
+    color: #40a9ff;
+    font-size: 48px;
+}
+.ant-upload .ant-upload-text {
+    color: rgba(0,0,0,.85);
+    font-size: 18px;
+}
+.ant-upload .ant-upload-hint {
+    color: rgba(0,0,0,.45);
+    font-size: 16px;
 }
